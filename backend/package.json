@@ -1,0 +1,26 @@
+
+{
+  "name": "image-resizer-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for AI Image Resizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "sharp",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.4"
+  }
+}
